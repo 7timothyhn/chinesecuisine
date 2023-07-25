@@ -21,15 +21,15 @@
   }
   
   .contact .rightSide h1 {
-    font-family: Georgia, serif;
-    font-weight: 10;
+    font-family: "Gill Sans", sans-serif;
+    font-weight:bolder;
     font-size: 50px;
     margin-left: 30px;
   }
 
   .contact .rightSide h5 {
-    font-family: Georgia, serif;
-    font-weight: 10;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 600;
     font-size: 20px;
     margin-left: 30px;
   }
@@ -45,6 +45,24 @@
   form label {
     margin-top: 15px;
     color: black;
-    border-bottom: 1px solid #121619;
+    margin-bottom: 20px;
   }
   
+  .rightSide button {
+    color: rgb(51, 15, 15);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 140px;
+    font-size: 15px;
+  }
+  .rightSide button:hover {
+    background-color: #474747;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+  }

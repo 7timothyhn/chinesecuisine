@@ -2,6 +2,9 @@ import React from "react";
 import Takeout2 from "../assets/takeout2.jpg";
 import "../styles/Contact.css";
 
+import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
+
 function Contact() {
   return (
     <div className="contact">
@@ -11,7 +14,7 @@ function Contact() {
       ></div>
 
       <div className="rightSide">
-        <h1> Contact Us</h1>
+        <h1> Order Now</h1>
         <h5>Opening Hours: 7 am to 7 pm <br></br>
         <br></br>
         +1 (111)-123-1234 
@@ -21,12 +24,11 @@ function Contact() {
 
         <form id="contact-form" method="POST">
           <label htmlFor="info"> Our store only accepts phone calls at the momment. New Features will not be available until 2024.
-
-
-            <br></br>
-            <br></br>
-            <br></br>
+         
           </label>
+           <Link to="/menu">
+          <button> Back to menu </button>
+        </Link>
           
         </form>
       </div>
