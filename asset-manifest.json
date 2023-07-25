@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/chinesecuisine/static/css/main.3dfd0af9.css",
+    "main.js": "/chinesecuisine/static/js/main.afeb5460.js",
+    "static/js/787.8ff056b9.chunk.js": "/chinesecuisine/static/js/787.8ff056b9.chunk.js",
+    "static/media/takeout.jpg": "/chinesecuisine/static/media/takeout.aec320a7e44621ac4cce.jpg",
+    "static/media/OC.jpg": "/chinesecuisine/static/media/OC.a35ea4401028cb13d834.jpg",
+    "static/media/mongolianbeef.jpg": "/chinesecuisine/static/media/mongolianbeef.9660f578f29e0cbf5cbc.jpg",
+    "static/media/chickenwithgarlicsauce.jpg": "/chinesecuisine/static/media/chickenwithgarlicsauce.3567637ccfc6d7adb1c0.jpg",
+    "static/media/crispybeef.jpg": "/chinesecuisine/static/media/crispybeef.31d1e91c069a0f21459f.jpg",
+    "static/media/saltandpepertofu.jpg": "/chinesecuisine/static/media/saltandpepertofu.74bd0a3fc640d0559eb2.jpg",
+    "static/media/foodlogo3.png": "/chinesecuisine/static/media/foodlogo3.c0b25ec40133fd6ff820.png",
+    "static/media/Ccloth2.jpg": "/chinesecuisine/static/media/Ccloth2.fb5c151475c6899eb9b6.jpg",
+    "static/media/takeout2.jpg": "/chinesecuisine/static/media/takeout2.33c4f0ff9f376fe53ace.jpg",
+    "index.html": "/chinesecuisine/index.html",
+    "main.3dfd0af9.css.map": "/chinesecuisine/static/css/main.3dfd0af9.css.map",
+    "main.afeb5460.js.map": "/chinesecuisine/static/js/main.afeb5460.js.map",
+    "787.8ff056b9.chunk.js.map": "/chinesecuisine/static/js/787.8ff056b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfd0af9.css",
+    "static/js/main.afeb5460.js"
+  ]
+}
