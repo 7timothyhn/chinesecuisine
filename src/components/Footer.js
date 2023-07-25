@@ -11,9 +11,8 @@ function Footer() {
       <div className="socialMedia">
         <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
       </div>
-      <p> 
-        +1 (111)-123-1234 <br></br> <br></br>
-        &copy; Chinese.com</p>
+      <p>+1 (111)-123-1234 </p>
+      <p>&copy; Chinese.com</p>
     </div>
   );
 }
