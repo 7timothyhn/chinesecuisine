@@ -13,7 +13,16 @@
 
 .headerContainer {
   width: auto;
-  margin-left: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121619;
+  color: white;
+   
 }
 
 .headerContainer h1 {
@@ -21,17 +30,8 @@
   align-items: center;
   font-size: 90px;
   height: 60px;
-  font-weight: 100;
-    color: white;
-    text-shadow:
-    -2px -2px 0 #373737,
-    2px -2px 0 #373737,
-    -2px 2px 0 #373737,
-    2px 2px 0 #373737,
-    -2px 0 0 #373737,
-    2px 0 0 #373737,
-    0 -2px 0 #373737,
-    0 2px 0 #373737;
+  font-weight: 350;
+  color: white;
 }
 
 .headerContainer p {
@@ -41,11 +41,6 @@ font-size: 40px;
 font-weight: lighter;
 color: white;
 font-size: 20px;
-text-shadow:
-  -1px -1px 0 #373737,
-  1px -1px 0 #373737,
-  -1px 1px 0 #373737,
-  1px 1px 0 #373737;
 
 
 }
@@ -56,12 +51,13 @@ text-shadow:
   border-radius: 5px;
   cursor: pointer;
   justify-content: center;
-  background-color: #121619;
+  background-color: #2b2c2d;
   height: 50px;
   width: 180px;
   color: white;
   text-decoration: none;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .headerContainer button:hover {
@@ -71,13 +67,14 @@ text-shadow:
 }
 
 @media only screen and (max-width: 650px) {
+  
   .home {
     justify-content: center;
     align-items: center;
   }
 
   .headerContainer {
-    margin-left: 0px;
+    
     border-radius: 10px;
     padding: 10px;
     width: 80%;
@@ -90,14 +87,64 @@ text-shadow:
   }
 
   .headerContainer h1 {
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 350;
     height: 30px;
     color: white;
+    text-decoration: none;
+    
   }
 
   .headerContainer p {
     font-size: 30px;
     color: white;
+    text-align: center;
+  }
+
+  .headerContainer button {
+    background-color: white;
+    color: #121619;
+    margin-bottom: 30px;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 990px)  {
+  
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContainer {
+    
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #121619;
+    color: white;
+  }
+
+  .headerContainer h1 {
+    font-size: 70px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 350;
+    
+  }
+
+  .headerContainer p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
   }
 
   .headerContainer button {
