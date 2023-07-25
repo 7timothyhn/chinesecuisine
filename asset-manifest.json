@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chinesecuisine/static/css/main.300b3b70.css",
+    "main.css": "/chinesecuisine/static/css/main.739a45f3.css",
     "main.js": "/chinesecuisine/static/js/main.59bf62f2.js",
     "static/js/787.8ff056b9.chunk.js": "/chinesecuisine/static/js/787.8ff056b9.chunk.js",
     "static/media/takeout.jpg": "/chinesecuisine/static/media/takeout.aec320a7e44621ac4cce.jpg",
@@ -13,12 +13,12 @@
     "static/media/Ccloth2.jpg": "/chinesecuisine/static/media/Ccloth2.fb5c151475c6899eb9b6.jpg",
     "static/media/takeout2.jpg": "/chinesecuisine/static/media/takeout2.33c4f0ff9f376fe53ace.jpg",
     "index.html": "/chinesecuisine/index.html",
-    "main.300b3b70.css.map": "/chinesecuisine/static/css/main.300b3b70.css.map",
+    "main.739a45f3.css.map": "/chinesecuisine/static/css/main.739a45f3.css.map",
     "main.59bf62f2.js.map": "/chinesecuisine/static/js/main.59bf62f2.js.map",
     "787.8ff056b9.chunk.js.map": "/chinesecuisine/static/js/787.8ff056b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.300b3b70.css",
+    "static/css/main.739a45f3.css",
     "static/js/main.59bf62f2.js"
   ]
 }
