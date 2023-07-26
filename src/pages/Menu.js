@@ -15,6 +15,7 @@ function Menu() {
               image={menuItem.image}
               name={menuItem.name}
               spiceLevel={menuItem.spiceLevel}
+              ingred={menuItem.ingred}
               price={menuItem.price}
             />
           );

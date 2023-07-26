@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function MenuItem({ image, name, price, spiceLevel }) {
+function MenuItem({ image, name, price, spiceLevel, ingred }) {
   return (
   <Link to="/contact"> 
     <div className="menuItem">
@@ -9,6 +9,7 @@ function MenuItem({ image, name, price, spiceLevel }) {
       <div style={{ backgroundImage: `url(${image})` }}> </div>
       <h1> {name} </h1>
       <p> {spiceLevel} </p>
+      <p> {ingred}</p>
       <p> ${price} </p>
       
        

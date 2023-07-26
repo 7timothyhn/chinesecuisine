@@ -12,7 +12,7 @@ function About() {
         <h1> ABOUT US</h1>
         <p>
           
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in. Eleifend donec pretium vulputate sapien nec sagittis. Sagittis id consectetur purus ut faucibus pulvinar. Nibh tortor id aliquet lectus proin nibh nisl condimentum. Enim nunc faucibus a pellentesque. Adipiscing bibendum est ultricies integer quis. Eros donec ac odio tempor orci dapibus. A condimentum vitae sapien pellentesque habitant morbi tristique. Aliquet porttitor lacus luctus accumsan tortor posuere. Netus et malesuada fames ac turpis egestas maecenas. Sagittis vitae et leo duis ut.
+        Welcome to our Chinese food restaurant, where we serve authentic and delicious Chinese cuisine made with the finest imported ingredients. Our chefs carefully select the best ingredients from China to ensure that our dishes are bursting with flavor and authenticity. Our menu features a wide variety of traditional and contemporary Chinese dishes, all prepared with care and attention to detail. Our restaurant has a warm and inviting atmosphere, and our friendly staff are always happy to help. Join us for a meal and discover the delicious flavors of China.
         
         </p>
       </div>
