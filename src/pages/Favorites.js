@@ -3,7 +3,7 @@ import MenuItem from "../components/MenuItem";
 import "../styles/Favorites.css";
 import "../styles/Navbar.css";
 
-function Favorites({ favorites }) {
+function Favorites({ favorites, handleFavorites }) {
   return (
     <div className="menu">
       <h1 className="menuTitle">Your Favorites</h1>
@@ -17,6 +17,8 @@ function Favorites({ favorites }) {
               spiceLevel={menuItem.spiceLevel}
               ingred={menuItem.ingred}
               price={menuItem.price}
+              handleFavorites={() => handleFavorites(menuItem)}
+              isFavorite={true}
             />
           );
         })}

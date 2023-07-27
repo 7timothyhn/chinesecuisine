@@ -61,7 +61,7 @@
     margin-bottom: 30px;
   }
   
-  button {
+   .menuItem button {
     color: rgb(51, 15, 15);
     border: none;
     border-radius: 5px;
@@ -69,15 +69,16 @@
     justify-content: center;
     background-color: #121619;
     color: white;
-    text-decoration: none;
-    height: 50px;
-    width: 140px;
+    
+    height: 40px;
+    width: 50%;
     font-size: 15px;
+    font-weight: 500;
   }
-  button:hover {
-    background-color: #474747;
+  .menuItem button:hover {
+    background-color: #cc2a2a;
     cursor: pointer;
-    transition: 0.2s ease-in;
+    transition: 0.3s ease-in
   }
   
 
