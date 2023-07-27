@@ -1,95 +1,93 @@
 .menu {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-  }
-  .menu .menuTitle {
-    font-family: "Gill Sans", sans-serif;
-    font-size: 60px;
-  }
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
-  .menuList {
-    width: 70vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-  }
-  a { /*Removes the text decoration from the each menu item*/
-    text-decoration: none;
-    color: black;
-  }
-  
-  /* MENU ITEM STYLING */
-  
-  .menuItem {
-    border-radius: 15px;
-    width: 350px;
-    height: 450px;
-    margin: 20px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    
-  }
-  .menuItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in;
-    cursor: pointer;
-  }
-  
-  .menuItem div {
-   
-    
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .menuItem h1,
-  .menuItem p, .spice-level {
-    margin-left: 20px;
-  }
-  .menuItem h1 {
-    height: 60px;
-    margin-bottom: 30px;
-  }
-  
-   .menuItem button {
-    color: rgb(51, 15, 15);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    justify-content: center;
-    background-color: #121619;
-    color: white;
-    
-    height: 40px;
-    width: 50%;
-    font-size: 15px;
-    font-weight: 500;
-  }
-  .menuItem button:hover {
-    background-color: #cc2a2a;
-    cursor: pointer;
-    transition: 0.3s ease-in
-  }
-  
+}
+.menu .menuTitle {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 60px;
+}
 
-  @media only screen and (max-width: 1300px) {
-    .menuList {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+.menuList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+a { /*Removes the text decoration from the each menu item*/
+  text-decoration: none;
+  color: black;
+}
+
+/* MENU ITEM STYLING */
+
+.menuItem {
+  border-radius: 15px;
+  width: 350px;
+  height: 450px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   
-  @media only screen and (max-width: 800px) {
-    .menuList {
-      grid-template-columns: 1fr;
-    }
+}
+.menuItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.menuItem div {
+  
+  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuItem h1,
+.menuItem p, .spice-level {
+  margin-left: 20px;
+}
+.menuItem h1 {
+  height: 60px;
+  margin-bottom: 30px;
+}
+  .menuItem button {
+  color: rgb(51, 15, 15);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  color: white;
+  height: 40px;
+  width: 50%;
+  font-size: 15px;
+  font-weight: 500;
+}
+.menuItem button:hover {
+  background-color: #cc2a2a;
+  cursor: pointer;
+  transition: 0.3s ease-in
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .menuList {
+    grid-template-columns: 1fr 1fr;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .menuList {
+    grid-template-columns: 1fr;
+  }
+}
